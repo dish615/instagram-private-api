@@ -1,0 +1,71 @@
+{
+  "name": "instagram-private-api",
+  "description": "Instagram private API wrapper for full access to instagram",
+  "version": "0.4.3",
+  "main": "index.js",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/huttarichard/instagram-private-api/issues",
+    "email": "huttarichard@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huttarichard/instagram-private-api.git"
+  },
+  "homepage": "https://github.com/huttarichard/instagram-private-api",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --inline-diffs --timeout 10000 tests/run.js"
+  },
+  "dependencies": {
+    "bluebird": "^3.0.5",
+    "crypto-js": "^3.1.6",
+    "is-stream": "^1.1.0",
+    "js-md5": "^0.3.0",
+    "json-bigint": "^0.2.0",
+    "node-cache": "^3.0.0",
+    "request": "^2.64.0",
+    "request-promise": "^1.0.2",
+    "touch": "^1.0.0",
+    "tough-cookie": "^2.3.1",
+    "tough-cookie-filestore": "0.0.1",
+    "underscore": "^1.8.3",
+    "underscore.string": "^3.2.2"
+  },
+  "devDependencies": {
+    "mkdirp": "^0.5.1",
+    "faker": "^3.1.0",
+    "inquirer": "^1.1.2",
+    "mocha": "^2.4.5",
+    "node-resemble-js": "0.0.5",
+    "should": "^8.3.1",
+    "should-sinon": "0.0.5",
+    "sinon": "^1.17.3",
+    "tmp": "0.0.28"
+  },
+  "gitHead": "558f2fb0934da8a2abce71d80ffd2d59a7615e0e",
+  "_id": "instagram-private-api@0.4.3",
+  "_shasum": "8e423d87b93983e4c68c65db1e9999120301922b",
+  "_from": "instagram-private-api@>=0.4.3 <0.5.0",
+  "_npmVersion": "3.8.6",
+  "_nodeVersion": "6.0.0",
+  "_npmUser": {
+    "name": "huttarichard",
+    "email": "huttarichard@gmail.com"
+  },
+  "dist": {
+    "shasum": "8e423d87b93983e4c68c65db1e9999120301922b",
+    "tarball": "https://registry.npmjs.org/instagram-private-api/-/instagram-private-api-0.4.3.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "huttarichard",
+      "email": "huttarichard@gmail.com"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/instagram-private-api-0.4.3.tgz_1471074974407_0.786778379464522"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/instagram-private-api/-/instagram-private-api-0.4.3.tgz"
+}
